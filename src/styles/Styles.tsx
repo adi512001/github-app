@@ -2,12 +2,12 @@ import { Avatar, Card } from "@mui/material";
 import styled from "styled-components";
 
 export const LayoutStyle = styled.div`
-  //   height: 100%;
   max-height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
   background-color: #f6f8fa;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  overflow: auto;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
